@@ -1,0 +1,83 @@
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.container{
+    margin: 20px auto ;
+    width: 60%;
+    padding: 20px;
+    
+}
+
+.container h1{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.input-calc{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn{
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btnPlus{
+   
+  background-color: green;
+}
+
+.btnMin{
+    background-color: red;
+}
+
+.btn-submit{
+    width: 100%;
+    background-color: #000000;
+    color: rgb(18, 134, 147);
+    border: 1px solid rgb(18, 134, 147);
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background-color: rgb(104, 121, 219);
+    color: #000000;
+    border: 1px solid rgb(18, 134, 147);
+}
+
+.text-result{
+    background-color: aliceblue;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text-result h4{
+    font-size: 28px;
+}
+
+.text-result p{
+    font-size: 20px;
+}
+
+  
+
+
