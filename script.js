@@ -18,14 +18,14 @@ minusbtn.onclick = function(){
 }
 
 
-function printResult(result){
+function printResult(resultat){
     if(result < 0 ){
         result.style.color = "red"
     } else{
         result.style.color = "green"
     }
 
-    result.textContent = result;
+    result.textContent = resultat;
 }
 submitBtn.addEventListener("click", ()=>{
     if(action == "+"){
