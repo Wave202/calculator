@@ -27,11 +27,11 @@ h1,h2,h3,h4{
 
 .btn-flex{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 .btn{
-    width: 45%;
+    width: 40%;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -47,6 +47,12 @@ h1,h2,h3,h4{
 
 .btnMin{
     background-color: red;
+}
+
+.btnX{
+
+    background-color: blue;
+    
 }
 
 .btn-submit{
@@ -77,6 +83,8 @@ h1,h2,h3,h4{
 .text-result p{
     font-size: 20px;
 }
+
+
 
   
 
